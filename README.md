@@ -6,6 +6,8 @@ The script looks for `setup.exe`, `config.xml`, and `desired_version.txt` in its
 
 The task is the same for any product the Office Deployment Tool can install. `config.xml` chooses the products, the update channel, the languages, and what happens to Office that is already installed. [Configuration](#configuration) lists those choices. [`config.example.xml`](config.example.xml) is one filled-in file.
 
+A [step-by-step guide based on a real example](https://www.techopt.io/windows/deploy-office-with-active-directory-step-by-step-gpo-guide) follows one domain through the same deploy.
+
 ## Put the files in SYSVOL
 
 Copy this folder to the domain SYSVOL share, for example:
